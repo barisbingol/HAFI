@@ -15,8 +15,6 @@ class HAFI {
         void dur();
         void dans();
         void hiz(int hiz);
-        void motorKontrol();
-        void geriKontrol();
         void serbestMod(boolean deger);
         boolean motorRunning = false;
         boolean arabaCalis = false;
