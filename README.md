@@ -12,8 +12,8 @@ HAFI, yaptığımız arabaya verdiğimiz isimdir, arabamız ismini okulumuzun is
 #### kur()
 `sag` ya da `sol` fonksiyonlarında herhangi bir sorun olmaması için bunu yaptık, yani örnek verecek olursak; eğer sizin sağ ön motorunuz 3 numaralı motor ise, bu bir karışıklık yaratacaktır. Bu problemi çözmek için bu fonksiyonu geliştirdik.
 
-Kullanım: `<HAFI>.kur(motorSayısı, motor1Pin, motor2Pin, motor3Pin, motor4Pin);`
-NOT: Eğer motor 3 ve 4 yoksa, onları 0 olarak yazmalısınız.
+Kullanım: `<HAFI>.kur(motorSayısı, motor1Pin, motor2Pin, motor3Pin, motor4Pin);`<br>
+**NOT:** Eğer motor 3 ve 4 yoksa, onları 0 olarak yazmalısınız.
 
 <hr>
 
@@ -77,8 +77,8 @@ Kullanım: `<HAFI>.serbestMod(true)`
 Bu fonksiyon sayesinde tek satır kod ile engelden kaçan araba yapabiliriz.
 
 Kullanım: `<HAFI>.engeldenKac(önSensörTrigPin, önSensörEchoPin, arkaSensörTrigPin, arkaSensörEchoPin, minimumSensörDeğeri, dönüşYönü)`
-Bu fonksiyonda `minimumSensörDeğeri`'ni ön ya da arka sensör alırsa, arabamız `dönüşYönü`'ne döner.
-NOT: Dönüş yönü `0` ise sağa, `1` ise sola döner.
+Bu fonksiyonda `minimumSensörDeğeri`'ni ön ya da arka sensör alırsa, arabamız `dönüşYönü`'ne döner.<br>
+**NOT:** Dönüş yönü `0` ise sağa, `1` ise sola döner.
 
 <hr>
 
