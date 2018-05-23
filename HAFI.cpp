@@ -91,14 +91,6 @@ void HAFI::hiz(int hiz) {
     motor4.setSpeed(hiz);
 }
 
-/** void HAFI::motorKontrol() {
-    return motorRunning;
-}
-
-void HAFI::geriKontrol() {
-    return geriDeger;
-} */
-
 void HAFI::serbestMod(boolean deger) {
     serbestModDeger = deger;
 }
