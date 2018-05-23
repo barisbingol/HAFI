@@ -4,6 +4,7 @@ HAFI SimpleHAFI;
 
 void setup() {
     SimpleHAFI.kur(4, 1, 2, 3, 4);
+    SimpleHAFI.hiz(50);
 }
 
 void loop() {
