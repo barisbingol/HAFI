@@ -27,10 +27,10 @@ class HAFI {
         boolean serbestModDeger = false;
         int bluetoothVeri;
     private:
-        int motor1Pin;
-        int motor2Pin;
-        int motor3Pin;
-        int motor4Pin;
+        int motor1Pin = 1;
+        int motor2Pin = 2;
+        int motor3Pin = 3;
+        int motor4Pin = 4;
         int onMesafe;
         int arkaMesafe;
         int bluetoothObje;
